@@ -149,9 +149,7 @@ sub makeBody{
     my $record = [];
     my $records = {};
     my $tweets_count = 0;
-    
-    #    $records = @_ ; 
-    
+        
     foreach $records (@_) {
         foreach $record (@$records) {
             $tweets_count += 1;
